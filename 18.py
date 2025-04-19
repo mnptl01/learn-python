@@ -1,4 +1,5 @@
-n=3
-for i in range(1,n+1):
-    if i%2!=0:
-        print((f"{i}"*i).center(5))
+n = 3
+for i in range(1, n+1):
+    print(" "*(n-i)+str(i)*(2*i-1))
+for i in range(n-1,0,-1):
+    print(" "*(n-i)+str(i)*(2*i-1))
