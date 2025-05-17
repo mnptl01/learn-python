@@ -15,7 +15,7 @@ class Customer:
         print(f"Available balance in the account is {self.Balance}")
 
 
-Acc1 = Customer(100, 100000)
+Acc1 = Customer(100, 100000, 1000)
 print(Acc1.accNo)
 print(Acc1.Balance)
 Acc1.credit(1000)
